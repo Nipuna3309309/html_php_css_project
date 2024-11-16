@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+    <title></title>
+<link rel ="stylesheet" text="text/css" href="style/style4.css">
+<style>
+  body{
+    background-image: url("images/uk.jpg");
+  }
+</style>
+
+<head>
+
+</head>
+<body>
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <center><h1>Tour Feedback</h1></center>
+          
+         
+          <hr>
+          <label for="User ID"><b>User ID</b></label><br>
+          <input type="text" placeholder="Enter ID" name="User ID" required><br>
+      
+          <label for="User Name"><b>User Name</b></label><br>
+          <input type="text" placeholder="Enter Name" name="User Name" required><br>
+      
+          <label for="Email"><b>Email</b></label><br>
+          <input type="text" placeholder="kk@gmail.com" name="Email" required><br>
+      
+          <label for="Trip Name"><b>Trip Name</b></label><br>
+          <input type="text" placeholder="Enter Text" name="Trip Name" required><br>
+      
+          <label for="Destination"><b>Destination</b></label><br>
+          <input type="text" placeholder="Enter Text" name="Destination" required><br>
+          <div class="date">
+          <label for="">Trip Date</label><br>
+	      <input type="date" Name="Trip Date" required><br><br>
+          <label for="ratings"><b>Ratings</b></label><br>
+          <input type="text" placeholder="Enter Text" name="Rate" required><br>
+           </div>
+        
+
+         <b>Would you refer recommend us to your family or friends:</b>
+                <div class="yes-no">
+              <input type="radio" name="yesno" value="yes"> Yes
+              <input type="radio" name="yesno" value="no"> No
+              <br><br> 
+	         
+          <div class="clearfix">
+             <button type="submit" class="submitbtn">Submit</button>
+          </div>
+        </div>
+      </form>
+</body>
+</html>
